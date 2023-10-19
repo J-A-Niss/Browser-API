@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Browser API</title>
+</head>
+<body>
+
+    <div class="container">
+
+        <section>
+            <h2>Landing Page de Teste!</h2>
+            <h4>Teste aqui as opções <i>arrastáveis</i>!</h4>
+            <div class="parent">
+                <div class="origin dropzone"
+                    ondragover="dragOver(event)"
+                    ondrop="drop(event)">
+                    <h4>Fazer</h4>
+                    <div id="drag-1" class="draggable" draggable="true"
+                        ondragstart="dragStart(event)">Arrastavel 1
+                    </div>
+                    <div id="drag-2" class="draggable" draggable="true"
+                        ondragstart="dragStart(event)">Arrastavel 2
+                    </div>
+                    <div id="drag-3" class="draggable" draggable="true"
+                        ondragstart="dragStart(event)">Arrastavel 3
+                    </div>
+                </div>
+                <div class="dropzone"
+                    ondragover="dragOver(event)"
+                    ondrop="drop(event)">
+                    <h4>Fazendo</h4>
+                </div>
+                <div class="dropzone"
+                    ondragover="dragOver(event)"
+                    ondrop="drop(event)">
+                    <h4>Feito</h4>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Canvas and SVG</h2>
+            <p class="lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit; O Texto de Teste!</p>
+            <canvas id="canvas"></canvas>
+
+            <svg width="200" height="250" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                <polyline points="600 60 500 50 70 1150 75 130 80 125 85 140 90 135 95 150 100 145 900 1000" stroke="blue" fill="transparent" stroke-width="5"/>
+                <polygon points="50 160 55 180 70 180 60 190 65 205 50 195 35 205 40 190 30 180 45 180"
+                stroke="blue" fill="transparent" stroke-width="5"/>
+            </svg>
+        </section>
+
+        <section>
+            <h2>Geolocation</h2>
+            <p class="lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit; O Texto de Teste!</p>
+            <iframe width="523" height="403" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="gmap_canvas" src="" name="map"></iframe><a href='https://google-map-generator.com/'>Maps Generator</a>
+        </section>
+
+        <section>
+            <h2>Notifications</h2>
+            <button onclick=getNotifications()>Clique para receber uma notificação!</button>
+        </section>
+    
+    </div>
+
+    <script src="./js/scripts.js"></script>
+    <script src="./js/geolocation.js"></script>
+    <script src="./js/notification.js"></script>
+</body>
+</html>
