@@ -12,7 +12,6 @@ html {
 
 body {
     font-size: 1.6rem;
-    color: black;
 }
 
 section {
@@ -75,7 +74,6 @@ h2 {
 @media (prefers-color-scheme: dark) {
     body {
         background-color: #444444;
-        color: #d1d1d1;
     }
 }
 
