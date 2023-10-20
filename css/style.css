@@ -11,6 +11,7 @@ html {
 }
 
 body {
+    background-color: #838383;
     font-size: 1.6rem;
 }
 
@@ -21,6 +22,7 @@ section {
 
 h2 {
     margin-bottom: 1rem;
+    border-top: solid 1px black;
 }
 
 .container {
@@ -76,14 +78,14 @@ h2 {
         background-color: #141414;
         color: #e4e4e4;
     }
-} */
+} 
 
 @media (prefers-color-scheme: light) {
     body {
         background-color: rgb(209, 209, 209);
         color: rgb(45, 45, 75);
     }
-}
+}*/
 
 button {
     padding: .1em;
