@@ -39,7 +39,5 @@ window.addEventListener('resize', function(){
         console.log('tablet');
     else {
         console.log('desktop');
-    }
-
-})
+    }})
   
