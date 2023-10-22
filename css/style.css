@@ -24,7 +24,11 @@ body {
 }
 
 .headerlink {
-    padding-right: 4%;
+    margin-right: 4%;
+}
+
+.notific {
+    text-align: right;
 }
 
 h3 {
@@ -73,10 +77,14 @@ section {
 }
 
 button {
-    justify-content: right;
-    padding: .1em;
-    font-size: large;
-    font-weight: bold;
+    color: #0074FF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 1%;
 }
 
 /* .serv {
@@ -88,10 +96,6 @@ button {
     font-weight: 400;
     line-height: normal;
 } */
-
-.servicos {
-    padding-bottom: 1%;
-}
 
 .segm {
     text-align: center;
