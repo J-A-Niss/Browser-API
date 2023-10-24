@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
 }
 
 html {
@@ -14,13 +14,12 @@ body {
 }
 
 .logopad {
-    padding: 2%;
+    float: left;
 }
 
 .logotop {
     width: 11.28125rem;
     height: 2.21875rem;
-    flex-shrink: 0;
 }
 
 .headerlink {
@@ -29,6 +28,20 @@ body {
 
 .notific {
     text-align: right;
+    /* float: right; */
+    text-align: center;
+    margin: 1%;
+    padding: 1%;
+    height: 1%;
+}
+.flecha{
+    display: grid;
+    width: 10%;
+    height: 1%;
+}
+.group3 {
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 h3 {
@@ -63,17 +76,12 @@ p {
 .group2 {
     text-align: right;
     height: 1.0625rem;
-    flex-shrink: 0;
-    padding-right: 1%;
+    /* flex-shrink: 20; */
+    margin-top: 1%;
 }
 
 section {
     margin-top: 5%;
-}
-
-.notific {
-    margin: 1%;
-    text-align: right;
 }
 
 button {
@@ -99,6 +107,7 @@ button {
 
 .segm {
     text-align: center;
+
 }
 
 .segmentos {
