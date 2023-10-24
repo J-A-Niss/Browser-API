@@ -24,15 +24,14 @@ body {
 
 .headerlink {
     margin-right: 4%;
+    color: black;
+    text-decoration: none;
 }
 
 .notific {
     text-align: right;
     /* float: right; */
     text-align: center;
-    margin: 1%;
-    padding: 1%;
-    height: 1%;
 }
 .flecha{
     display: grid;
