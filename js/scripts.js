@@ -1,12 +1,12 @@
 
 function dragStart(event){
-
+    
     console.log(event.dataTransfer);
-
+    
     event.dataTransfer.setData('text/plain', event.target.id);
-
+    
     event.currentTarget.style.backgrondColor = 'gray';
-
+    
 }
 
 function dragOver(event){
@@ -18,26 +18,26 @@ function drop(event){
     console.log(id);
     const draggableElement = document.getElementById(id);
     const dropzone = event.target;
-
+    
     dropzone.appendChild(draggableElement);
-
+    
     event.dataTransfer.clearData();
-
+    
 }
 
-const canvas = document.getElementById('canvas');
-const ctx = canvas.getContext('2d');
+// const canvas = document.getElementById('canvas');
+// const ctx = canvas.getContext('2d');
 
 ctx.fillStyle = 'red';
 ctx.fillRect(10, 10, 150, 150);
 
 window.addEventListener('resize', function(){
-
+    
     if( this.window.innerWidth < 620)
-        console.log('smartphone');
+    console.log('smartphone');
     else if ( this.window.innerWidth < 920 )
-        console.log('tablet');
+    console.log('tablet');
     else {
         console.log('desktop');
     }})
-  
+    
