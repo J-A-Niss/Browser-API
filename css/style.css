@@ -18,8 +18,8 @@ body {
 }
 
 .logotop {
-    width: 11.28125rem;
-    height: 2.21875rem;
+    margin-left: 95%;
+    padding-left: 10%;
 }
 
 .headerlink {
@@ -29,18 +29,20 @@ body {
 }
 
 .notific {
-    text-align: right;
-    /* float: right; */
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
+    margin-top: 30%;
 }
 .flecha{
-    display: grid;
+    /* display: grid;
     width: 10%;
-    height: 1%;
+    height: 1%; */
+    margin: 0 auto;
 }
 .group3 {
     display: inline-grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, 48.5%);
 }
 
 h3 {
@@ -49,7 +51,7 @@ h3 {
     font-family: Montserrat;
     font-size: 2rem;
     font-style: normal;
-    font-weight: 700;
+    font-weight: bolder;
     line-height: normal;
 }
 
@@ -70,6 +72,14 @@ p {
     font-weight: 400;
     line-height: normal;
     text-align: center;
+}
+
+.ptitulo01 {
+    font-size: 1.5rem;
+}
+
+.ptitulo {
+    font-size: 1.6rem;
 }
 
 .group2 {
@@ -98,23 +108,26 @@ iframe {
     margin: 1%;
 }
 
-/* .serv {
-    color: #595959;
-    text-align: center;
-    font-family: Montserrat;
-    font-size: 2.25rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-} */
+
+.servimg {
+    margin-left: .5%;
+}
+
+.servicos {
+    margin-left: 16%;
+}
 
 .segm {
     text-align: center;
+    /* display: inline-grid;
+    grid-template-columns: repeat(2, 48.5%); */
 
 }
 
 .segmentos {
     padding-bottom: 1%;
+    /* margin-left: auto;
+    margin-right: auto; */
 }
 
 footer {
