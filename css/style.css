@@ -38,6 +38,7 @@ body {
 .flecha{
     margin: 0 auto;
 }
+
 .group3 {
     display: inline-grid;
     grid-template-columns: repeat(2, 48.5%);
@@ -91,6 +92,10 @@ p {
     text-align: left;
     margin-left: 0%;
 
+}
+
+.geoloc {
+    margin-top: 4%;
 }
 
 .group2 {
