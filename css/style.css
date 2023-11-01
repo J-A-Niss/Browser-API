@@ -15,6 +15,7 @@ body {
 
 .logopad {
     float: left;
+    margin-left: 10%;
 }
 
 .logotop {
@@ -36,7 +37,6 @@ body {
 }
 .flecha{
     margin: 0 auto;
-    margin-left: 25%;
 }
 .group3 {
     display: inline-grid;
@@ -159,7 +159,7 @@ iframe {
 footer {
     color: antiquewhite;
     margin-top: 2%;
-    padding: 5%;
+    padding: 3%;
     background-color: rgb(31, 31, 31);
     text-align: right;
 }
