@@ -29,16 +29,14 @@ body {
 }
 
 .notific {
-    margin-left: auto;
+    margin-left: 20%;
     margin-right: auto;
-    text-align: center;
-    margin-top: 30%;
+    text-align: left;
+    margin-top: 20%;
 }
 .flecha{
-    /* display: grid;
-    width: 10%;
-    height: 1%; */
     margin: 0 auto;
+    margin-left: 25%;
 }
 .group3 {
     display: inline-grid;
@@ -53,6 +51,7 @@ h3 {
     font-style: normal;
     font-weight: bolder;
     line-height: normal;
+    margin: 2%;
 }
 
 h4 {
@@ -72,14 +71,26 @@ p {
     font-weight: 400;
     text-align: center;
     line-break: loose;
+    width: 60%;
+    margin-left: 21%;
 }
 
 .ptitulo01 {
     font-size: 1.5rem;
+    text-align: left;
+    padding: 1%;
+    margin: 0%;
+    margin-bottom: 4%;
 }
 
 .ptitulo {
     font-size: 1.6rem;
+}
+
+.transformacao {
+    text-align: left;
+    margin-left: 0%;
+
 }
 
 .group2 {
@@ -91,17 +102,18 @@ p {
 
 section {
     margin-top: 10%;
+    margin-bottom: 5%;
 }
 
 button {
     color: #0074FF;
-    text-align: center;
     font-family: Montserrat;
     font-size: 1rem;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
     margin: 1%;
+    padding: 1.5%;
 }
 
 iframe {
@@ -118,22 +130,30 @@ iframe {
     margin-left: 16%;
 }
 
-.segm {
-    text-align: center;
-    /* display: inline-grid;
-    grid-template-columns: repeat(2, 48.5%); */
-
-}
-
 .segmentos {
     padding-bottom: 1%;
     /* margin-left: auto;
     margin-right: auto; */
 }
 
+.segmtitulo {
+    margin-top: 10%;
+}
+
+.segm {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 2%;
+}
+
 .segms {
     margin: 1%;
-    display: block;
+    /* display: block; */
+    flex: 0 0 calc(33.33% - 20px);
+    margin: 10px;
+    text-align: center;
 }
 
 footer {
