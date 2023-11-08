@@ -19,7 +19,7 @@ body {
 }
 
 .logotop {
-    margin-left: 95%;
+    /* margin-left: 95%; */
     padding-left: 10%;
 }
 
@@ -167,6 +167,12 @@ footer {
     padding: 3%;
     background-color: rgb(31, 31, 31);
     text-align: right;
+}
+
+@media (max-width: 620px){
+    .container {
+        max-width: 560px;
+    }
 }
 
 /* .draggable {
