@@ -29,6 +29,10 @@ body {
     text-decoration: none;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
 .notific {
     margin-left: 20%;
     margin-right: auto;
