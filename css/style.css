@@ -10,7 +10,7 @@ html {
 }
 
 body {
-    background-color: #ffffff;
+    background-color: antiquewhite;
 }
 
 .logopad {
@@ -41,7 +41,7 @@ a:hover {
 }
 .flecha{
     margin: 0 auto;
-    padding-left: 15%;
+    padding-left: 9%;
 }
 
 .group3 {
@@ -128,7 +128,7 @@ button {
 
 iframe {
     margin: 1%;
-    margin-left: 37%;
+    padding-left: 25%;
 }
 
 
@@ -178,9 +178,12 @@ footer {
     .container {
         max-width: 560px;
     }
+    footer {
+        display: contents
+    }
 }
 
-/* .draggable {
+.draggable {
     border: 2px dashed #838383;
     background-color: #ddd;
     cursor: grab;
@@ -211,7 +214,7 @@ footer {
     }
 } 
 
-@media (prefers-color-scheme: light) {
+/* @media (prefers-color-scheme: light) {
     body {
         background-color: rgb(209, 209, 209);
         color: rgb(45, 45, 75);
