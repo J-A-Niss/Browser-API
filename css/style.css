@@ -203,15 +203,36 @@ footer {
 }
 
 .dropzone:hover {
-    border-color: #339;
+    border-color: rgb(101, 101, 255);
 }
 
-/* @media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: dark) {
     body {
-        background-color: #141414;
-        color: #e4e4e4;
+        background-color: #313131;
+        color: #fde3e3;
     }
-}  */
+    p {
+        color: antiquewhite;
+    }
+    h1, h2, h3, h4 {
+        color: whitesmoke;
+    }
+    .headerlink {
+        color: white;
+    }
+    .dropzone {
+        border-color: aliceblue;
+    }
+    .segmimg {
+        filter: invert(1);
+    }
+    .logopad {
+        filter: invert(1);
+    }
+    footer {
+        filter: invert(1);
+    }
+} 
 
 /* @media (prefers-color-scheme: light) {
     body {
