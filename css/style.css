@@ -229,6 +229,9 @@ footer {
     footer {
         filter: invert(1);
     }
+    .logotop {
+        filter: invert(1);
+    }
 } 
 
 /* @media (prefers-color-scheme: light) {
