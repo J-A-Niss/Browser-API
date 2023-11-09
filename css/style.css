@@ -10,7 +10,7 @@ html {
 }
 
 body {
-    background-color: antiquewhite;
+    background-color: rgb(255, 249, 240);
 }
 
 .logopad {
@@ -31,6 +31,10 @@ body {
 
 a:hover {
     text-decoration: underline;
+}
+
+button:hover {
+    cursor: pointer;
 }
 
 .notific {
@@ -184,21 +188,16 @@ footer {
 }
 
 .draggable {
-    border: 2px dashed #838383;
-    background-color: #ddd;
     cursor: grab;
-    font-weight: normal;
-    margin-bottom: 1rem;
-    margin-top: 1rem;
-    padding: 1rem;
-    border-radius: 1%;
+    margin: .5%;
+    padding-left: 1%;
 }
 
 .dropzone {
     border: 2px solid #353535;
-    background-color: #eee;
-    flex-basis: 100%;
-    flex-grow: 1;
+    display: flex;
+    /* flex-basis: 100%;
+    flex-grow: 1; */
     margin: 1rem;
     padding: 1rem;
 }

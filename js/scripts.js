@@ -3,7 +3,7 @@ function dragStart(event){
     
     console.log(event.dataTransfer);
     
-    event.dataTransfer.setData('text/plain', event.target.id);
+    event.dataTransfer.setData('image', event.target.id);
     
     event.currentTarget.style.backgrondColor = 'gray';
     
