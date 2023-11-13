@@ -10,7 +10,7 @@ html {
 }
 
 body {
-    background-color: rgb(255, 249, 240);
+    background-color: whitesmoke;
 }
 
 .logopad {
@@ -204,6 +204,10 @@ footer {
 
 .dropzone:hover {
     border-color: rgb(101, 101, 255);
+}
+
+.imgframe {
+    margin: .1%;
 }
 
 @media (prefers-color-scheme: dark) {
